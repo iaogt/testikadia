@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>TestIkadia</name>
+	<version>0.0.1</version>
+	<files folder="site">
+		<filename>testikadia.php</filename>
+		<filename>controller.php</filename>
+		<folder>views</folder>
+		<folder>models</folder>
+		<folder>language</folder>
+	</files>
+	<administration>
+		<menu link="index.php?option=com_testikadia">Test Ikadia</menu>
+		<files folder="admin">
+			<filename>testikadia.php</filename>
+			<filename>controller.php</filename>
+			<folder>views</folder>
+			<folder>models</folder>
+			<folder>language</folder>
+		</files>
+	</administration>
+</extension>
